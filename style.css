@@ -1,0 +1,308 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	font-size: 18px;
+	color:  #666464;
+	font-family: sans-serif;
+}
+
+p, h1, h2, h3{
+	padding: 0;
+	margin: 0;
+}
+
+.main-container{
+	width: 100%;
+	background-color: #ffffff;
+}
+
+
+/*HEADER-section*/
+.header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0 5px 0;
+	background-color: #0c97c6;
+	/*#0a4e6a;*/
+}
+
+.my-image img{
+	width: 200px;
+	height: 230px;
+	border-radius: 50%;
+}
+
+.my-image{
+	width: 40%;
+	height: auto;
+	margin-left: 100px;
+}
+.my-image-1 img{
+    width: 100px;
+	height: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.my-name{
+	width: 55%;
+	height: auto;
+   margin-top: 50px;
+}
+
+.my-name h1{
+	font-size: 30px;
+	color: #ffffff;
+	font-weight: 600;
+}
+
+.my-name h2{
+	font-size: 20px;
+	color:/*#e1e0e6*/#ffffff;
+}
+
+.my-name p{
+	padding: 3px 0 0 0;
+	color: #ffffff;
+}
+
+.underline{
+	width: 150px;
+	margin-bottom: 5px;
+	border-bottom: 4px solid #ffffff;
+}
+
+/*Main-Contents*/
+
+.section-border{
+	width: 99%;
+	margin: 15px auto;
+	border-top: 1px solid #e1e0e6;
+}
+
+.sections{
+	width: 100%;
+	margin: 15px auto;
+}
+
+.personal-details-section{
+	width: 100%;
+    margin-left: 20px;
+}
+
+/*About-section*/
+.about-section h1,
+.contact-section h1,
+.skills-section h1,
+.interests-section h1{
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.progress-bar-parent{
+	width: 100%;
+	height: 10px;
+	margin-bottom: 20px;
+	background-color: #dfdfe3;
+}
+
+.progress-bar-child{
+	width: 8%;
+	height: 10px;
+	background-color: #0c97c6;
+}
+
+.about-bar-parent,
+.contact-bar-parent,
+.skills-bar-parent,
+.interest-bar-parent{
+	width: 100%;
+	height: 10px;
+	margin-bottom: 20px;
+	background-color: #dfdfe3;
+}
+
+.about-bar-child,
+.contact-bar-child,
+.skills-bar-child,
+.interest-bar-child{
+	width: 18%;
+	height: 10px;
+	background-color: #0c97c6;
+}
+
+.contact-section, 
+.skills-section, 
+.interests-section{
+	margin-top: 30px;
+}
+
+.profile-text p{
+	line-height: 1.3;
+	font-size: 20px;
+	text-align: justify;
+}
+
+.contact-section h2{
+	font-size: 22px;
+	font-weight: 500;
+	margin-top: 20px;
+}
+
+.contact-section a{
+	color: #0c97c6;
+}
+
+
+/*Skills-section*/
+.skills{
+	margin-bottom: 20px;
+	margin-right: 80px;
+	margin-left: 20px;
+}
+
+.html, 
+.css, 
+.bootstrap,
+.javascript,
+.figma, 
+.Adobe-XD,
+.illustrator,
+.photoshop, 
+.ms-office-suite{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 5px;
+}
+
+.html h1, 
+.css h1, 
+.bootstrap h1, 
+.javascript h1, 
+.figma h1, 
+.Adobe-XD h1,
+.illustrator h1,
+.photoshop h1, 
+.ms-office-suite h1{
+	width: 40%;
+	font-size: 20px;
+	font-weight: 500;
+}
+ 
+.bootstrap-bar-parent,
+.javascript-bar-parent,
+.Adobe-XD-bar-parent,
+.illustrator-bar-parent,
+.figma-bar-parent,
+.photoshop-bar-parent{
+	width: 37%;
+	height: 20px;
+    margin-right: 100px;
+	background-color: #dfdfe3;
+}
+
+
+.html-bar-parent, 
+.css-bar-parent,
+.ms-office-suite-bar-parent{
+	width: 37%;
+	height: 20px;
+    margin-right: 100px;
+	background-color: #0c97c6;
+}
+.bootstrap-bar-child{
+	width: 90%;
+	height: 20px;
+	background-color: #0c97c6;
+}
+.figma-bar-child{
+	width: 97%;
+	height: 20px;
+	background-color: #0c97c6;
+}
+
+.javascript-bar-child{
+	width: 20%;
+	height: 20px;
+	background-color: #0c97c6;
+}
+.photoshop-bar-child{
+	width: 70%;
+	height: 20px;
+	background-color: #0c97c6;
+}
+.Adobe-XD-bar-child,
+.illustrator-bar-child{
+	width: 95%;
+	height: 20px;
+	background-color: #0c97c6;
+}
+
+#footer-bottom{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+	background-color: #0c97c6;
+}
+
+#footer-bottom p{
+    margin: 0;
+    text-align: center;
+    line-height: 50px;
+	color: #dfdfe3;
+}
+#footer-bottom a{
+	color: #dfdfe3;
+     text-decoration: none;
+}
+#footer-bottom a:hover{
+    color: #efd910;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px){
+	.sections{
+	display: block;
+	width: 100%;
+}
+
+
+@media only screen and (max-width: 380px){
+	.sections{
+	display: block;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
